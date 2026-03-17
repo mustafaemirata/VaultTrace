@@ -1,0 +1,27 @@
+name: vaultrace
+description: "VaultTrace - Secure Banking & SQL Log Simulation Project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP istekleri için gerekli paket
+  http: ^1.2.0
+  
+  # iOS tarzı ikonlar için
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Material Design ikonlarını ve stilini aktif eder
+  uses-material-design: true
